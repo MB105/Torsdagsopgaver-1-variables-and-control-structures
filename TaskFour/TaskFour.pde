@@ -30,9 +30,26 @@ String counterAsString="";
             case 2:counterAsString = "two";
                    break;
             case 1:counterAsString= "one";
+            default: 
+            println(counterAsString);
+            
         }
             
-           println(counterAsString);
+            if(start){
+              case 3:println("three");
+              break;
+              case 2:println("two");
+              break;
+              case 1: println("one");
+              break;
+              case 0: println("take off");
+              println(start);
+             
+            
+        }
+
+            
+         
         
                    
             
